@@ -3,7 +3,7 @@ import ProductGrid from "../components/ProductGrid";
 export default function GalleryPage({ products, loading }) {
   return (
     <main className="mx-auto max-w-6xl px-6 py-10">
-      <section>
+      <section className="relative mb-10 overflow-hidden rounded-3xl bg-linear-to-br from-indigo-600 via-violet-600 to-cyan-500 p-10 text-white shadow-xl md:p-14">
         <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-white/10"></div>
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-white/70">
           Product Gallery

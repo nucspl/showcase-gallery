@@ -10,7 +10,7 @@ export default function ManagePage({
   onDelete,
 }) {
   return (
-    <main className="mx-auto grid max-w-6xl items-start gap-8 px-6 py-10 lg:grid-cols[360px_1fr]">
+    <main className="mx-auto grid max-w-6xl items-start gap-8 px-6 py-10 lg:grid-cols-[360px_1fr]">
       <ProductForm
         key={editingProduct?._id || "new"}
         editingProduct={editingProduct}
